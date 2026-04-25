@@ -1,0 +1,616 @@
+Resumen,Clave de incidencia,ID de la incidencia,Tipo de Incidencia,Estado,Clave del proyecto,Nombre del proyecto,Tipo de proyecto,Responsable del proyecto,ID del responsable del proyecto,Descripción del proyecto,Prioridad,Resolución,Persona asignada,ID de la persona asignada,Informador,ID del informador,Creador,ID del creador,Creada,Actualizada,Vista por Última Vez,Resuelta,Fecha de vencimiento,Votos,Descripción,Entorno,Interesados,ID de los interesados,Estimación original,Trabajo restante estimado,Tiempo Trabajado,Relación de trabajo,Σ Estimación original,Σ Trabajo restante estimado,Σ Tiempo empleado,Nivel de Seguridad,Adjunto,Adjunto,Adjunto,Campo personalizado (Actual end),Campo personalizado (Actual start),Campo personalizado (Aprobaciones),Campo personalizado (Change reason),Campo personalizado (Change risk),Campo personalizado (Change type),Campo personalizado (Epic Color),Campo personalizado (Epic Name),Campo personalizado (Epic Status),Campo personalizado (Formularios abiertos),Campo personalizado (Formularios bloqueados),Campo personalizado (Formularios enviados),Campo personalizado (Impact),Campo personalizado (Issue color),Campo personalizado (Metas),Campo personalizado (Project overview key),Campo personalizado (Project overview status),Campo personalizado (Rank),Campo personalizado (Request Type),Campo personalizado (Sentiment),Campo personalizado (Start date),Campo personalizado (Story Points),Campo personalizado (Story point estimate),Campo personalizado (Target end),Campo personalizado (Target start),Campo personalizado (Team),Campo personalizado (Total de formularios),Campo personalizado (Vulnerability),Campo personalizado ([CHART] Date of First Response),Campo personalizado ([CHART] Time in Status),Campo personalizado (development),Campo personalizado (Áreas de enfoque),Categoría de estado,Categoría de estado cambiada
+"El temporizador al finalizar los 10 minutos de tolerancia en el panel automóvil reservado, no inicia el tiempo de uso compartido del vehículo",JMU-25,10088,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 6:06 PM,03/abr/26 6:14 PM,06/abr/26 4:54 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Selecciónar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+ 7Hacer clic en el botón “Reservar”
+
+8 Seleccionar una tarifa
+
+9 Ingresar una Licencia de Conducir válida
+
+10 Pedir reservar un automóvil
+
+Resultado Actual: El temporizador de 10 minutos al terminar se queda en 00:01
+
+Resultado esperado:   Inicie el tiempo de vehiculo comparitdo",Navegador: Google Chrome Versión 146.0.7680.178 (Build oficial) (64 bits) 800 x 600 pixceles,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 6:14 PM;63febf6b-b525-4a7d-b446-e7630298f01c;Grabación de pantalla 2026-04-03 181350.mp4;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10102,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@33222f68,,,,,,,,,,,,,,,0|i0005b:,,,,,,,,,,,,,,,Por hacer,03/abr/26 6:06 PM
+Al cancelar el campo desde con todos los campos obligatorios llenos en Urban Routes el softwear me elimina toda la información y me regresa a la pantalla incial,JMU-24,10087,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 5:27 PM,03/abr/26 5:33 PM,06/abr/26 4:54 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Seleccionar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Agregar una Licencia de conducir válida (Nombre: Sam, Apellido: Neruda, 23061999; 0101999999)
+
+9 Agregar un Método de pago válido (Num de tarjeta 01 01 111111, código 11)
+
+10 Cancelar el campo “Desde” o “Hasta”
+
+Resultado Actual: La interfaz me regresa a la pantalla de inicio, se borra la ruta, el mapa desecala el zoom, todos los campos se borran.
+
+Resultado Esperado: La interfaz se mantenga en la pantalla actual, el botón de reserva tiene el mensaje “Agregar direcciones y reservar”",FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 5:33 PM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 173239.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10101,03/abr/26 5:32 PM;63febf6b-b525-4a7d-b446-e7630298f01c;Grabación de pantalla 2026-04-03 172508 (26578bce-1f60-4e2a-8674-f0814d837b1f).mp4;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10100,03/abr/26 5:32 PM;63febf6b-b525-4a7d-b446-e7630298f01c;Grabación de pantalla 2026-04-03 172508.mp4;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10099,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@687bc389,,,,,,,,,,,,,,,0|i00053:,,,,,,,,,,,,,,,Por hacer,03/abr/26 5:27 PM
+"Al hace clic en el botón ""Reservar"" sin método de pago en el panel de urban routes, el automóvil es reservado",JMU-23,10086,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 5:14 PM,06/abr/26 4:54 PM,06/abr/26 4:54 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Seleccionar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Agregar una Licencia de conducir válida (Nombre: Sam, Apellido: Neruda, 23061999; 0101999999)
+
+9 Hacer clic en botón de reserva al final del panel principal
+
+Resultado Actual: Se reserva automóvil. Inicia el temporizador de 10:00 minutos y se despliega la información de la reserva.
+
+Resultado Esperado: El botón debe mantenerse inactivo con el texto agrega método de pago y recerva, el recorrido es de … km y lo se hará en ____ minutos y oprimirlo no generar cambios",FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 5:19 PM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 171212.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10097,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@20a8b576,,,,,,,,,,,,,,,0|i0004v:,,,,,,,,,,,,,,,Por hacer,03/abr/26 5:14 PM
+"Al cancelar el formulario de agregar licencia de conducir con el botón cancelar, se agrega una nueva licencia de conducir",JMU-22,10085,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 4:29 PM,06/abr/26 4:53 PM,06/abr/26 4:53 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Seleccionar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Seleccionar el campo “Agregar Licencia de Conducir”
+
+9 Ingresar en el campo nombre y apellido 
+
+10 hacer clic en cancelar
+
+Resultado Actual: Se agrega una licencia de conducir nueva
+
+Resultado Esperado: Cancelar el proceso y no agregar una licencia de conducir nueva",FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 4:31 PM;63febf6b-b525-4a7d-b446-e7630298f01c;Grabación de pantalla 2026-04-03 162834.mp4;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10096,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@5381107d,,,,,,,,,,,,,,,0|i0004n:,,,,,,,,,,,,,,,Por hacer,03/abr/26 4:29 PM
+"Al agregar una licencia válida en el panel izquierdo de urban routes, no inicia la aparición y conteo del temporizador",JMU-21,10084,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 4:20 PM,06/abr/26 4:53 PM,06/abr/26 4:53 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Seleccionar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Agregar una licencia de conducir con datos válidos en el formulario
+
+9 Dar clic en Entendido en el Mensaje Emergente
+
+Resultado Actual: El campo del panel principal de Urban Routes se apreca el texto “Licencia de Conducir”
+
+Resultado Esperado: El campo de Licencia de conducir inicia un tiempo de validación ilustrado por un temporizador de 30 segundos",FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 4:24 PM;63febf6b-b525-4a7d-b446-e7630298f01c;Grabación de pantalla 2026-04-03 162423.mp4;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10095,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@171bf000,,,,,,,,,,,,,,,0|i0004f:,,,,,,,,,,,,,,,Por hacer,03/abr/26 4:20 PM
+"Al ingresar apellido con guion en el formulario agregar licencia de conducir en el campo agregar apellido, se marca como entrada inválida",JMU-20,10083,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 4:16 PM,06/abr/26 4:53 PM,06/abr/26 4:53 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Seleccionar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Seleccionar el campo “Agregar Licencia de Conducir”
+
+9 Ingresar en el campo Apellido un apellido con guion (Pablo Neruda-P)
+
+Resultado Actual: El campo se resalta en rojo y aparece el mensaje de error “Introduce un nombre válido”
+
+Resultado Esperado: El campo acepte la entrada como válida",FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 4:18 PM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 144639.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10094,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@7d05e4c9,,,,,,,,,,,,,,,0|i00047:,,,,,,,,,,,,,,,Por hacer,03/abr/26 4:16 PM
+"Al ingresar en nombre con guion en el campo nombre del formulario agregar licencia de conducir, la plataforma lo marca como inválido",JMU-19,10082,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 4:11 PM,06/abr/26 4:53 PM,06/abr/26 4:53 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Seleccionar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Seleccionar el campo “Agregar Licencia de Conducir”
+
+9 Ingresar en el campo nombre un nombre con guion (Pablo Neruda-P)
+
+Resultado Actual: El campo se resalta en rojo y aparece el mensaje de error “Introduce un nombre válido”
+
+Resultado Esperado: El campo acepte la entrada como válida",FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 4:15 PM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 144639.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10093,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@662b222b,,,,,,,,,,,,,,,0|i0003z:,,,,,,,,,,,,,,,Por hacer,03/abr/26 4:11 PM
+"Al agregar una tarjeta nueva en el panel método de pago, no se visualizan los cuatro últimos números de la tarjeta",JMU-18,10081,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 3:59 PM,03/abr/26 4:03 PM,06/abr/26 4:52 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Selecciónar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Seleccionar el campo “Método de Pago”
+
+9 Seleccionar agregar tarjeta 
+
+10 Completar el formulario de agregar una tarjeta con información válida
+
+11 hacer clic en “Agregar Tarjeta”
+
+Resultado Actual: La tarjeta se agrega con el nombre “Tarjeta” 
+
+Resultado Esperado: La tarjeta se agrega con el nombre de los últimos 4 dígitos de la tarjeta","h2. Entorno
+
+FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles",Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 4:03 PM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 160213.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10092,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@1fbb7cb9,,,,,,,,,,,,,,,0|i0003r:,,,,,,,,,,,,,,,Por hacer,03/abr/26 3:59 PM
+"Al ingresar una entrada con espacios en el campo numero de tarjeta del formulario de agregar tarjeta, no se quitan automáticamente",JMU-17,10080,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 3:55 PM,03/abr/26 3:57 PM,06/abr/26 4:51 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Selecciónar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Seleccionar el campo “Método de Pago”
+
+9 Seleccionar agregar tarjeta
+
+10 Ingresar en el campo “Número de tarjeta (no la tuya)” un elemento no válido con espacios (ej. “123 $% .#&a/(%”)
+
+Resultado Actual: El campo acepta el contenido de la entrada, con espacios.
+
+Resultado esperado: Modificar la entrada automáticamente para quitar los espacios",FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 3:57 PM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 143341.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10091,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@5fe6b258,,,,,,,,,,,,,,,0|i0003j:,,,,,,,,,,,,,,,Por hacer,03/abr/26 3:55 PM
+Al ingresar un valor el campo número de tarjeta en el formulario agregar tarjeta acepta más de 12 characteres,JMU-16,10079,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 3:52 PM,03/abr/26 3:53 PM,06/abr/26 4:50 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Selecciónar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Seleccionar el campo “Método de Pago”
+
+9 Seleccionar agregar tarjeta
+
+10 Ingresar en el campo “Número de tarjeta (no la tuya)” un elemento no válido (ej. “123$% .#&a/(%”)
+
+Resultado Actual: El campo acepta el contenido de la entrada, más de 12 characteres.
+
+Resultado esperado: No reconocer como válida la entrada.",FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 3:53 PM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 143341.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10089,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@6c845dbc,,,,,,,,,,,,,,,0|i0003b:,,,,,,,,,,,,,,,Por hacer,03/abr/26 3:52 PM
+Al ingresar en el formulario de agregar tarjeta un código inválido se reconoce como válido,JMU-15,10078,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 3:46 PM,06/abr/26 4:13 PM,06/abr/26 4:50 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Selecciónar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Seleccionar el campo “Método de Pago”
+
+9 Seleccionar agregar tarjeta
+
+10 Ingresar en el campo código un elemento no válido (ej. “123$% .#&a/(%”)
+
+Resultado Actual: El campo acepta el contenido de la entrada, acepta letras latinas, caracteres especiales espacios y signos de puntuación. El campo acepta valores 00 y 100. 
+
+Resultado esperado: No reconocer como válida la entrada.",FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 3:54 PM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 143341.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10090,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@36192f97,,,,,,,,,,,,,,,0|i00033:,,,,,,,,,,,,,,,Por hacer,03/abr/26 3:46 PM
+El campo número de tarjeta admite todos los caracteres del teclado como validos en el formulario de agregar tarjeta,JMU-14,10077,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 3:37 PM,06/abr/26 4:11 PM,06/abr/26 4:50 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Selecciónar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Seleccionar el campo “Método de Pago”
+
+9 Seleccionar agregar tarjeta
+
+10 Ingresar en el campo “Número de tarjeta (no la tuya)” un elemento no válido (ej. “123$% .#&a/(%”)
+
+Resultado Actual: El campo acepta el contenido de la entrada, acepta letras latinas, caracteres especiales espacios y signos de puntuación. El campo acepta rango de valores distintos a 12 ch, incluyendo 000000000000.
+
+Resultado esperado: No reconocer como válida la entrada.",FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 3:45 PM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 143341.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10088,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@78459aa4,,,,,,,,,,,,,,,0|i0002v:,,,,,,,,,,,,,,,Por hacer,03/abr/26 3:37 PM
+"Al llenar todos los campos obligatorios de tarifa ""De lujo"" y retirar los campos de dirección, el botón azul aparece con el mensaje ""Agregar direcciones y reservar""",JMU-13,10044,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 11:08 AM,03/abr/26 11:48 AM,06/abr/26 4:50 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Selecciónar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Seleccionar la tarifa “De Lujo”
+
+9 Ingresar una licencia de conducir válida
+
+10 Ingresa una licencia de conducir válida
+
+11 Borra un campo del panel de dirección “Desde” o “Hasta”
+
+Resultado actual: Todos los campos de selección desaparecen, el mapa se regresa a la posición inicial sin marcar una ruta y el botón azul al final del panel desaparece.
+
+Resultado esperado: Todos los campos mantienen la información, se marca el campo eliminado en rojo con el mensaje de ingresar dirección válida y el botón azul al final del panel tiene el mensaje “Agregar dirección y reservar” ","Navegador: Google Chrome Versión 146.0.7680.178 (Build oficial) (64 bits) 800 x 600 pixceles
+
+FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles",Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 11:13 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Grabación de pantalla 2026-04-03 110808.mp4;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10046,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@4a841546,,,,,,,,,,,,,,,0|i0002n:,,,,,,,,,,,,,,,Por hacer,03/abr/26 11:08 AM
+"Al visualizar el panel izquierdo con los datos de ruta completados, no aparece el botón azul al final del panel en la misma pantalla",JMU-12,10043,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 10:31 AM,03/abr/26 11:23 AM,06/abr/26 4:50 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Selecciónar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+ 7 Hacer clic en el botón “Reservar”
+
+Resultados actual: Al final del panel izquierdo no aparece un botón azul con letras blancas escritas.
+
+Resultado esperado:  Al final del panel izquierdo aparece un botón azul con letras blancas escritas.",FireFox Versión 149.0 (64 bits) 1920 x 1080,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 11:23 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 102146.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10048,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@1be7937c,,,,,,,,,,,,,,,0|i0002f:,,,,,,,,,,,,,,,Por hacer,03/abr/26 10:31 AM
+"Al cancelar viaje en mensaje emergente de ""Automóvil Reservado"" el viaje no se cancela",JMU-11,10042,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 10:04 AM,03/abr/26 11:43 AM,06/abr/26 4:50 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Selecciónar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+ 7Hacer clic en el botón “Reservar”
+
+8 Seleccionar la tarifa “De Lujo”
+
+9 Ingresar una Licencia de Conducir válida
+
+10 Pedir reservar un automóvil
+
+11 Cancelar la reserva del automóvil
+
+Resultado Actual: No hay cambios dentro de la plataforma, el viaje no se cancela y el contador continua su regresión.
+
+Resultado esperado:   Se despliega una ventana emergente con la pregunta  ¿Seguro que quieres cancelar el viaje?","Navegador: Google Chrome Versión 146.0.7680.178 (Build oficial) (64 bits) 800 x 600 pixceles
+
+FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles",Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 10:12 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Grabación de pantalla 2026-04-03 100148.mp4;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10043,03/abr/26 11:43 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Grabación de pantalla 2026-04-03 114228.mp4;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10055,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@6f2bab09,,,,,,,,,,,,,,,0|i00027:,,,,,,,,,,,,,,,Por hacer,03/abr/26 10:04 AM
+"Al reservar un automóvil compartido de lujo, la ventana emergente con los datos marca y placa no aparecen",JMU-10,10041,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 9:55 AM,03/abr/26 11:41 AM,06/abr/26 4:50 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Selecciónar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Seleccionar la tarifa “De Lujo”
+
+9 Ingresar una Licencia de Conducir válida
+
+10 Pedir reservar un automóvil 
+
+Resultado Actual: Se despliega una ventana emergente con la información de pedido sin marca del vehículo ni placa.
+
+Resultado esperado:   Se despliega una ventana emergente con la información de pedido con la marca del vehículo y placa.","Navegador: Google Chrome Versión 146.0.7680.178 (Build oficial) (64 bits) 800 x 600 pixceles
+
+FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles",Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 9:59 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-02 184206.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10042,03/abr/26 11:41 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 114003.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10054,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@15988557,,,,,,,,,,,,,,,0|i0001z:,,,,,,,,,,,,,,,Por hacer,03/abr/26 9:55 AM
+"Al ingresar una licencia de conducir válida, el campo de Agregar licencia no cambia a un temporizador de 30 segundos",JMU-9,10040,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 9:47 AM,03/abr/26 11:35 AM,06/abr/26 4:52 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Selecciónar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Seleccionar la tarifa “De Lujo”
+
+9 Ingresar una licencia de conducir válida
+
+10 Dar clic en botón entendido en mensaje emergente
+
+Resultado Actual: El campo de Agregar licencia de conducir cambia a “Licencia de Conducir”
+
+Resultado esperado:  El campo de Agregar licencia de conducir cambia a un temporizador de 30 segundos.","Navegador: Google Chrome Versión 146.0.7680.178 (Build oficial) (64 bits) 800 x 600 pixceles
+
+FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles",Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 11:34 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 113434.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10053,03/abr/26 10:12 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Grabación de pantalla 2026-04-03 094556.mp4;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10044,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@66f3e05c,,,,,,,,,,,,,,,0|i0001r:,,,,,,,,,,,,,,,Por hacer,03/abr/26 9:47 AM
+"Al visualizar el taxímetro en panel de ""Requisitos del pedido de lujo"" el titulo es incorrecto",JMU-8,10039,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 9:36 AM,03/abr/26 11:31 AM,06/abr/26 4:49 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Selecciónar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Seleccionar la tarifa “De Lujo”
+
+9 Visualizar panel “Requisitos de pedido”
+
+Resultado Actual: El título del taxímetro es “Lentes geniales”
+
+Resultado esperado:  El título del taxímetro debe ser “Copas frías”","Navegador: Google Chrome Versión 146.0.7680.178 (Build oficial) (64 bits) 800 x 600 pixceles
+
+FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles",Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 9:39 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 091305.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10040,03/abr/26 11:31 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 112734.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10052,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@315faf1,,,,,,,,,,,,,,,0|i0001j:,,,,,,,,,,,,,,,Por hacer,03/abr/26 9:36 AM
+"Al visualizar panel de botónes de radio en ""Requisitos de pedido"" no se visualizan las opciones ""Bebidas para los pasajeros"" y ""Fruta para los pasajeros""",JMU-7,10038,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 9:28 AM,03/abr/26 11:31 AM,06/abr/26 4:49 PM,,,0,"Pasos para Reproducir el error
+
+Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Selecciónar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Seleccionar la tarifa “De Lujo”
+
+9 Visualizar panel “Requisitos de pedido”
+
+Resultado Actual: Las opciones de los botones de radio del panel tienen son “Champán para pasajeros” y “Vino para pasajeros”.
+
+Resultado esperado:  Las opciones de los botones de radio del panel tienen son “Bebidas para los pasajeros” y “Fruta para los pasajeros”.","Navegador: Google Chrome Versión 146.0.7680.178 (Build oficial) (64 bits) 800 x 600 pixceles
+
+FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles",Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 9:31 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 091305.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10039,03/abr/26 11:31 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 112734.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10051,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@3887cd8b,,,,,,,,,,,,,,,0|i0001b:,,,,,,,,,,,,,,,Por hacer,03/abr/26 9:28 AM
+"Al desplegar el panel ""Requisitos del pedido-de lujo"" el título de la sección es incorrecto",JMU-6,10037,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 9:21 AM,03/abr/26 11:29 AM,06/abr/26 4:49 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Selecciónar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Seleccionar la tarifa “De Lujo”
+
+9 Visualizar panel “Requisitos de pedido”
+
+Resultado Actual: El título del panel de la sección botones de ratio es “Diviértete”
+
+Resultado esperado:  El título del panel de la sección botones de ratio es “Relájate”. ","Navegador: Google Chrome Versión 146.0.7680.178 (Build oficial) (64 bits) 800 x 600 pixceles
+
+FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles",Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 9:25 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 091251.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10038,03/abr/26 11:29 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 112734.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10050,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@78578c97,,,,,,,,,,,,,,,0|i00013:,,,,,,,,,,,,,,,Por hacer,03/abr/26 9:21 AM
+"Al desplegar el panel ""Requisitos del pedido-de lujo"" no aparece la casilla de verificación, luz de discoteca",JMU-5,10036,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 9:15 AM,06/abr/26 4:49 PM,06/abr/26 4:49 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Selecciónar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Seleccionar la tarifa “De Lujo”
+
+9 Visualizar el panel de “Requisitos del pedido”
+
+Resultado Actual: Se despliega el panel de requisitos con la casilla de verificación “música ligera”.
+
+Resultado esperado: Se despliega el panel de requisitos con la casilla de verificación “luz de discoteca”","Navegador: Google Chrome Versión 146.0.7680.178 (Build oficial) (64 bits) 800 x 600 pixceles
+
+FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles",Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 9:18 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 091251.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10037,03/abr/26 11:27 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 112734.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10049,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@1df72c1,,,,,,,,,,,,,,,0|i0000v:,,,,,,,,,,,,,,,Por hacer,03/abr/26 9:15 AM
+"Al elegir la tarifa ""De lujo"", el mapa no muestra el ícono y marca del automóvil seleccionado para hacer el viaje",JMU-4,10035,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 9:08 AM,03/abr/26 11:22 AM,06/abr/26 4:49 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Selecciónar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Seleccionar la tarifa “De Lujo”
+
+9 Visualizar el mapa
+
+Resultado Actual: El mapa muestra los puntos A Y B de inicio y final de la ruta y la ruta en color azul.
+
+Resultado esperado: El mapa muestra los puntos A Y B de inicio y final de la ruta y la ruta en color azul, el ícono del automóvil seleccionado para realizar el viaje se hace grande y despliega un marco negro con la marca del automóvil. ","Navegador: Google Chrome Versión 146.0.7680.178 (Build oficial) (64 bits) 800 x 600 pixceles
+
+FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles",Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 9:11 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-02 171722.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10036,03/abr/26 11:22 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 102146.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10047,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@2db1c279,,,,,,,,,,,,,,,0|i0000n:,,,,,,,,,,,,,,,Por hacer,03/abr/26 9:08 AM
+"Al elegir una ruta, los íconos de automóviles cercanos no aparecen en el mapa de Urban Routes ",JMU-3,10034,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 8:55 AM,03/abr/26 10:28 AM,13/abr/26 2:38 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Visualizar la ruta en el mapa
+
+Resultados actual: En el mapa solo se ve la ruta del punto A al punto B con una línea azul marcando la ruta
+
+Resultado esperado:  En el mapa se ve la ruta del punto A al punto B con una línea azul marcando la ruta y se ven los íconos de los carros que se encuentran cerca del usuario.","Navegador: Google Chrome Versión 146.0.7680.178 (Build oficial) (64 bits) 800 x 600 pixceles
+
+FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles",Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 9:00 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-02 171722.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10035,03/abr/26 10:28 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-03 101806.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10045,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@2bdca9d1,,,,,,,,,,,,,,,0|i0000f:,,,,,,,,,,,,,,,Por hacer,03/abr/26 8:55 AM
+"Texto incorrecto en el panel de tarifa ""De lujo"" en el servició de automóvil compartido al visualizar contenido  ",JMU-2,10033,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,03/abr/26 8:37 AM,06/abr/26 4:48 PM,06/abr/26 4:48 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Selecciónar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Seleccionar la tarifa “De Lujo”
+
+Resultado Actual: Despliega la información y parámetros del tipo de tarifa en el pie de figura del panel dice  ""música ligera- bebidas para invitados""
+
+Resultado esperado:  Despliega la información y parámetros del tipo de tarifa en pie de figura del panel debe decir  ""música ligera- bebidas para los pasajeros""   ","Navegador: Google Chrome Versión 146.0.7680.178 (Build oficial) (64 bits) 800 x 600 pixceles
+
+FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles",Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,03/abr/26 8:52 AM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-02 171722.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10034,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@72592e06,,,,,,,,,,,,,,,0|i00007:,,,,,,,,,,,,,,,Por hacer,03/abr/26 8:45 AM
+"Al elegir ""Automóvil compartido"" en el panel no se muestra el icono de persona caminando cuando se despliega el panel de visualización de tarifa elegido",JMU-1,10000,Error,Tareas por hacer,JMU,Jacqueline Marcue UrbanRoutes,software,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,Medium,,,,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,02/abr/26 5:18 PM,06/abr/26 4:48 PM,06/abr/26 4:48 PM,,,0,"Pasos para Reproducir el error
+
+1 Abrir Urban Routes
+
+2 Ingresar una dirección en el campo desde “East 2nd street, 601”
+
+3 Ingresar una dirección en el campo hasta “1300 1st st”
+
+4 Selecciónar botón “Pedir taxi”
+
+5 Seleccionar el Modo de Transporte “Personal”
+
+6 Seleccionar el tipo de transporte “Automóvil compartido”
+
+7 Hacer clic en el botón “Reservar”
+
+8 Seleccionar la tarifa “De Lujo”
+
+Resultado Actual: Despliega la información y parámetros del tipo de tarifa sin el ícono de persona caminando a un lado del tiempo de espera.
+
+Resultado esperado: Despliega la información y parámetros del tipo de tarifa con el ícono de persona caminando a un lado del tiempo de espera.","Navegador: Google Chrome Versión 146.0.7680.178 (Build oficial) (64 bits) 800 x 600 pixceles
+
+FireFox Versión 149.0 (64 bits) 1920 x 1080 pixceles",Jacqueline Marcué,712020:b4adee91-ba6a-4136-9e5f-fd90cee56a0a,,,,,,,,,02/abr/26 5:17 PM;63febf6b-b525-4a7d-b446-e7630298f01c;Captura de pantalla 2026-04-02 171722.png;https://jmarcueas3urban.atlassian.net/rest/api/3/attachment/content/10001,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@50a2164a,,,,,,,,,,,,,,,0|hzzzzz:,,,,,,,,,,,,,,,Por hacer,02/abr/26 5:18 PM
